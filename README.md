@@ -25,8 +25,8 @@ We use the [Lyrics.ovh API](https://lyricsovh.docs.apiary.io/#) to fetch song ly
 - **artist**: Name of the artist.
 - **title**: Name of the song.
 
-Example request:
-https://api.lyrics.ovh/v1/Coldplay/Viva La Vida
+[Example GET request for Postman]
+(https://api.lyrics.ovh/v1/Coldplay/Viva La Vida)
 
 Getting Started
 Prerequisites
@@ -35,32 +35,50 @@ Before you begin, ensure you have the following:
 A web browser (Chrome, Firefox, etc.).
 Git installed on your machine.
 Installation
-To run this project locally, follow these steps:
+## Run Locally
 
-Clone the repository:
+Clone the project
 
-bash
-Copy code
-git clone https://github.com/TriptiMirani/MyMusic.git
-Navigate to the project directory:
+```bash
+  git clone https://github.com/TriptiMirani/MyMusic.git
+```
 
-bash
-Copy code
-cd MyMusic
+Go to the project directory
 
-Run the following commands in your terminal:
-npm i
-nodemon .\index.js
+```bash
+  cd MyMusic
+```
 
-Open localhost:3000 in your browser
+Install dependencies
 
-Usage
+```bash
+  npm i
+```
+
+Start the server
+
+```bash
+  nodemon .\index.js
+```
+
+## Usage
+
 Enter the artist's name and the song title in the input fields.
+
 Click the Submit button to fetch the lyrics.
+
 The lyrics will be displayed below the search form.
+
+
 Example
 If you search for:
 
 Artist: Coldplay
+
 Song Title: Viva La Vida
+
 The application will display the lyrics for Coldplay's "Viva La Vida"
+
+## Feedback
+
+If you have any feedback, please reach out to me at [Twitter/X](https://x.com/TriptiMirani)
