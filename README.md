@@ -54,7 +54,16 @@ Go to the project directory
   cd MyMusic
 ```
 
-Install dependencies
+## Dependencies
+
+The following packages are required for this project:
+
+- **axios**: For making API requests
+- **body-parser**: To parse incoming request bodies in a middleware
+- **ejs**: Template engine for rendering HTML pages
+- **express**: Framework for building the backend of the web app
+- **nodemon**: Development tool to automatically restart the server on changes
+
 
 ```bash
   npm i
