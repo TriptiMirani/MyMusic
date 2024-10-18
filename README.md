@@ -25,8 +25,10 @@ We use the [Lyrics.ovh API](https://lyricsovh.docs.apiary.io/#) to fetch song ly
 - **artist**: Name of the artist.
 - **title**: Name of the song.
 
-[Example GET request for Postman]
-(https://api.lyrics.ovh/v1/Coldplay/Viva La Vida)
+Example GET request for Postman
+```bash
+https://api.lyrics.ovh/v1/Coldplay/Viva La Vida
+```
 
 Getting Started
 Prerequisites
