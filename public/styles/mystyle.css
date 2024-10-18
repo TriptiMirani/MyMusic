@@ -1,0 +1,121 @@
+/* Importing fonts */
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400&family=Shrikhand&display=swap");
+
+/* Setting static background image */
+body {
+  background-image: url("/images/background.png");
+  background-size: cover;
+  background-attachment: fixed; /* Background remains static while scrolling */
+  background-position: center;
+  color: #6e5ae2;
+  font-family: "Quicksand", sans-serif; /* Default font is Quicksand */
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Styling for the container holding song data */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+  margin-top: 50px; /* Add margin at the top */
+}
+
+/* Styling for the song title */
+h1 {
+  font-family: "Shrikhand", cursive; /* Title uses Shrikhand font */
+  font-size: 3rem; /* Title font size */
+  color: #6e5ae2;
+  margin: 0.5em 0;
+}
+
+/* Styling for the artist name */
+h2 {
+  font-family: "Shrikhand", cursive; /* Artist uses Shrikhand font */
+  font-size: 2.5rem; /* Artist font size */
+  color: #6e5ae2;
+  margin: 0.25em 0;
+}
+
+/* Styling for the lyrics */
+p {
+  font-family: "Quicksand", cursive; /* Lyrics use Quicksand font */
+  font-size: 1.5rem; /* Lyrics font size */
+  color: #6e5ae2;
+  line-height: 1.6;
+  margin: 1.5em 0;
+  white-space: pre-line; /* Preserve line breaks */
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Centers form horizontally */
+  align-items: center; /* Centers form vertically */
+  height: 100vh; /* Full viewport height for vertical centering */
+}
+
+/* Styling for the form */
+form {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Slightly transparent background */
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%; /* Width constraint */
+}
+
+/* Styling input fields */
+input[type="text"] {
+  font-size: 1.2rem;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #6e5ae2;
+  border-radius: 5px;
+  width: 100%; /* Full width inside form */
+}
+
+/* Styling for submit button */
+input[type="submit"] {
+  background-color: #6e5ae2;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #5a4bcc;
+}
+
+/* Ensuring that the background stays fixed and elements scroll */
+html,
+body {
+  height: 100%;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Flexbox adjustments for full-page scrolling effect */
+/* body {
+  flex: 1;
+  justify-content: center;
+  overflow-y: auto;
+} */
+.container {
+  min-height: 45vh;
+  justify-content: flex-start;
+}
