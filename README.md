@@ -30,13 +30,16 @@ Example GET request for Postman
 https://api.lyrics.ovh/v1/Coldplay/Viva La Vida
 ```
 
-Getting Started
-Prerequisites
+## Getting Started
+
+**Prerequisites**
+
 Before you begin, ensure you have the following:
 
 A web browser (Chrome, Firefox, etc.).
+
 Git installed on your machine.
-Installation
+
 ## Run Locally
 
 Clone the project
@@ -67,17 +70,17 @@ Start the server
 
 Enter the artist's name and the song title in the input fields.
 
-Click the Submit button to fetch the lyrics.
+Click the **Submit** button to fetch the lyrics.
 
 The lyrics will be displayed below the search form.
 
 
-Example
+## Example
 If you search for:
 
-Artist: Coldplay
+**Artist: Coldplay**
 
-Song Title: Viva La Vida
+**Song Title: Viva La Vida***
 
 The application will display the lyrics for Coldplay's "Viva La Vida"
 
