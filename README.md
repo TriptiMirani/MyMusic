@@ -80,7 +80,7 @@ If you search for:
 
 **Artist: Coldplay**
 
-**Song Title: Viva La Vida***
+**Song Title: Viva La Vida**
 
 The application will display the lyrics for Coldplay's "Viva La Vida"
 
