@@ -2,6 +2,14 @@ import express from "express";
 import axios from "axios";
 import bodyParser from "body-parser";
 
+// index.js
+import { renderTemplate } from "./renderEjs.js"; // Import the render function
+
+const outputPath = "./index.html"; // Output path for the rendered HTML
+
+// Call the render function with your template name and data
+renderTemplate("index.ejs", { title: "Home" }, outputPath);
+
 const app = express();
 const port = 3000;
 const API_URL = "https://api.lyrics.ovh/v1";
